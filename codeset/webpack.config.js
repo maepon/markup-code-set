@@ -1,5 +1,5 @@
 module.exports = {
-  entry: './src/assets/js/main.js',
+  entry: './src/assets/_javascript/main.js',
   output: {
     path: `${__dirname}/htdocs/assets/js`,
     filename: 'main.js'

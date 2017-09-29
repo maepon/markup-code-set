@@ -7,11 +7,10 @@ const postcss =require('gulp-postcss')
 const autoprefixer =require('autoprefixer')
 const filter = require('gulp-filter')
 const watch = require('gulp-watch')
-const watch = require('gulp-watch')
 const cssmqpacker = require('css-mqpacker')
 
 const SRC = {
-  css: 'src/assets/scss/**/*.scss'
+  css: 'src/assets/_scss/**/*.scss'
 }
 
 const DEST = {
