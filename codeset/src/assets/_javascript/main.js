@@ -1,7 +1,7 @@
-"use strict"
+"use strict";
 
-import jQuery from 'jquery'
-const $ = jQuery
+import jQuery from 'jquery';
+const $ = jQuery;
 
 function main(){
 }

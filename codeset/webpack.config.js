@@ -1,9 +1,16 @@
+const webpack = require("webpack");
+
 module.exports = {
   entry: './src/assets/_javascript/main.js',
   output: {
     path: `${__dirname}/htdocs/assets/js`,
     filename: 'main.js'
   },
+
+  plugins: [
+    new webpack.optimize.UglifyJsPlugin()
+  ],
+
   module:{
     rules: [
       {
