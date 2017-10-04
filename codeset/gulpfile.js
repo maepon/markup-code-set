@@ -31,7 +31,7 @@ gulp.task('css', () => {
     .pipe(sourcemaps.init())
     .pipe(sass())
     .pipe(postcss(processors))
-    .pipe(sourcemaps.write('./maps'))
+    .pipe(sourcemaps.write('../maps'))
     .pipe(gulp.dest(DEST.css));
 });
 
