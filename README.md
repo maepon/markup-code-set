@@ -4,7 +4,7 @@
 ## 手順
 
 1. $ npm install or $ yarn install
-2. gulpfile.js/webpack.config.js編集
+2. (ディレクトリ構成などを変更する場合は)gulpfile.js/webpack.config.js編集
 3. npm start で実行
 
 ## 動作環境
