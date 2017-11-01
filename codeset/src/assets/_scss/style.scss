@@ -1,4 +1,8 @@
+@import "~HTML5-Reset";
 @import "mixin";
+
+html {
+  overflow-y: visible; }
 
 html{
   color: #000;
@@ -16,3 +20,22 @@ body{
   }
 }
 
+/*
+サンプルコンポーネント
+
+Styleguide 1.0
+*/
+
+/*
+サンプルボタン
+
+Markup:
+<a class="btn"> hoge </a>
+
+Styleguide 1.1
+*/
+.btn{
+  display: inline-block;
+  background-color: #000000;
+  color: #ffffff;
+}

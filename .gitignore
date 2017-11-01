@@ -1,5 +1,16 @@
 /codeset/node_modules
 /.idea
-/codeset/yarn.lock
 /codeset/htdocs/assets/css/maps
 /codeset/htdocs/assets/maps
+/codeset/htdocs/_styleguide/*.scss
+/codeset/htdocs/_styleguide/*.html
+/codeset/htdocs/_styleguide/*.css
+/codeset/htdocs/_styleguide/*.json
+/codeset/htdocs/assets/css/styleguide*
+node_modules
+/codeset/htdocs/_styleguide/views
+/codeset/htdocs/_styleguide/js
+/codeset/htdocs/_styleguide/css/withstyles
+/codeset/htdocs/_styleguide/css
+/codeset/htdocs/_styleguide/assets/img
+/codeset/htdocs/_styleguide/assets
