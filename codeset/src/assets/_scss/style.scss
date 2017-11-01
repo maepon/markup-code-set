@@ -31,6 +31,9 @@ Styleguide 1.0
 
 Markup:
 <a class="btn"> hoge </a>
+<hr>
+<a class="btn btn_2"> hoge </a>
+
 
 Styleguide 1.1
 */
@@ -38,4 +41,7 @@ Styleguide 1.1
   display: inline-block;
   background-color: #000000;
   color: #ffffff;
+  &_2{
+    background-color: #FF0000;
+  }
 }

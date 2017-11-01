@@ -14,12 +14,13 @@ const bourbon    = require("bourbon");
 const styleguide = require('sc5-styleguide');
 
 const SRC = {
-  css: 'src/assets/_scss/**/*.scss'
+  css: 'src/assets/_scss/**/*.scss',
+  cssDir: 'src/assets/_scss/'
 };
 
 const DEST = {
   css: 'htdocs/assets/css/',
-  'styleguide': 'htdocs/_styleguide/'
+  'styleguide': '_styleguide/'
 };
 
 const processors_dev = [
@@ -84,12 +85,11 @@ gulp.task('styleguide:applystyles', () =>{
   const processors = processors_dev;
 
   return gulp
-    .src(SRC.css + 'style.scss')
+    .src(SRC.cssDir + 'style.scss')
     .pipe(sass(sassOption))
-    .pipe(plumber())
     .pipe(postcss(processors))
     .pipe(styleguide.applyStyles())
-    .pipe(gulp.dest(DEST.css));
+    .pipe(gulp.dest(DEST.styleguide));
 });
 
 gulp.task('default', () => {
